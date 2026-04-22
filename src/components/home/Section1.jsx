@@ -1,4 +1,4 @@
-import heroImg from "../../assets/1.WEBP";
+import heroImg from "../../assets/1.webp";
 import { motion } from "framer-motion";
 
 
