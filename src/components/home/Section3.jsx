@@ -66,7 +66,7 @@ function Section3() {
             {[img1, img2, img3, img4, img5, img1].map((img, i) => (
               <div
                 key={i}
-                className="card min-w-[250px] md:min-w-[350px] h-[400px] md:h-[700px] rounded-[30px] flex-shrink-0 snap-center"
+                className="card min-w-[250px] md:min-w-[350px] h-[700px] md:h-[700px] rounded-[30px] flex-shrink-0 snap-center"
               >
                 <img
                   src={img}
