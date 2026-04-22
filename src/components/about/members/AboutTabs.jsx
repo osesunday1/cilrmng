@@ -16,10 +16,10 @@ function AboutTabs() {
 
   return (
     <section className=" bg-[var(--color-primary-100)]">
-      <div className=" mx-auto flex flex-col bg-[var(--color-primary-100)] items-center">
+      <div className=" mx-auto flex flex-col bg-[var(--color-primary-100)] items-center px-5 ">
 
         {/* TABS */}
-        <div className="flex flex-wrap  mb-10 justify-center h-20 w-full border-b-1 border-white  bg-[var(--color-primary-100)]">
+        <div className="flex flex-wrap  mb-10 justify-center h-20 w-full border-b-1 border-white bg-[var(--color-primary-100)]">
           {tabs.map((tab) => (
             <button
               key={tab.key}
@@ -36,7 +36,7 @@ function AboutTabs() {
         </div>
 
         {/* GRID */}
-        <div className=" max-w-7xl grid md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className=" max-w-7xl grid md:grid-cols-3 lg:grid-cols-4 gap-8  px-5">
           {membersData[activeTab].map((member, i) => (
             <MemberCard key={i} member={member} />
           ))}
