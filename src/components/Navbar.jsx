@@ -47,6 +47,16 @@ function Navbar() {
               About
             </NavLink>
           </li>
+          <li>
+            <a
+              href="https://cilrmg.control53.com/login"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white transition hover:text-[var(--color-primary-300)]"
+            >
+              LMS
+            </a>
+          </li>
 
         </ul>
 
@@ -79,6 +89,18 @@ function Navbar() {
                 About
               </NavLink>
             </li>
+
+            <li>
+                <a
+                  href="https://cilrmg.control53.com/login"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white transition hover:text-[var(--color-primary-300)]"
+                  onClick={() => setMenuOpen(false)}
+                >
+                  LMS
+                </a>
+              </li>
            
           </ul>
         </div>
